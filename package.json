@@ -11,12 +11,13 @@
     "install-server": "npm install --prefix server",
     "install-client": "npm install --perfix client",
     "install": "npm install --prefix server & npm install --perfix client",
-    "deploy": "npm run build --prefix client && npm start --prefix server"
+    "deploy": "npm run build --prefix client && npm start --prefix server",
+    "deploy-cluster": "npm run build --prefix client && npm run cluster --prefix server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "client": "^0.0.1"
   }
 }
